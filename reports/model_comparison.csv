@@ -1,0 +1,4 @@
+Model,Accuracy,F1-Score,Training Time,Best For
+SVM (RBF Kernel),82.77%,0.8279,138.59s,Non-linear boundaries between risk categories
+Random Forest,85.62%,0.8567,6.36s,Feature importance + handles correlated features
+Naive Bayes,77.41%,0.7717,0.02s,Baseline — fast but assumes feature independence
